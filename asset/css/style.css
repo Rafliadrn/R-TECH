@@ -1,0 +1,40 @@
+section
+{
+	min-height: 500px;
+}
+.jumbotron
+{
+	min-height: 400px;
+}
+.jumbotron-inner
+{
+	margin-top: 40px;
+}
+.about
+{
+	min-height: 400px;
+}
+.progress-bar
+{
+	font-size: 17px;
+}
+.progress
+{
+	height: 40px;
+}
+.our-work img{
+	width: 100%;
+}
+
+@media screen and (max-width: 768px){
+	.our-work img{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.our-work img{
+		width: 100%;
+	}
+}
